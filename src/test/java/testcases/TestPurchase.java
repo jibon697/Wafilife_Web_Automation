@@ -17,7 +17,6 @@ public class TestPurchase extends BrowserSetup {
     CheckoutPage checkoutPage = new CheckoutPage();
 
     @BeforeMethod
-    @Test
     public void navigateToHomepage(){
         getBrowser().get(homePage.url);
         homePage.clickOnElement(homePage.myAcc);
